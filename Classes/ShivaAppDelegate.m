@@ -24,7 +24,7 @@
 
     
     // Views
-    [self.window addSubview:self.mainViewController.view];
+    self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
 }
 
