@@ -53,7 +53,7 @@
 
 - (IBAction)doneButtonClicked
 {
-    [self.parentViewController dismissModalViewControllerAnimated:YES];
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 - (void)dealloc
