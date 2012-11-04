@@ -1,0 +1,8 @@
+Rdeča barva za tisk je pantone 186 C (ali 10% Cyan, 100% Magenta, 100% Yellov).
+Rdeča barva v RGB-ju (R 220, G 0, B 0).  
+
+Logotip mora imeti okoli sebe minimum predpisanega prostora (da lažje "diha") naj ima na vsaki strani  - praznine/beline - vsaj za tretjino svoje višine.
+
+Najmanjša velikost logotipa je 5 mm.
+
+Kjer je le mogoče uporabimo znak v Mobitelovi rdeči barvi, na rdečih tonih in na podlagah, kjer se začne izgubljati, pa ga uporabimo v srebrni, beli, sivi ali črni barvi.
