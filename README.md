@@ -20,8 +20,15 @@ Screenshots
 ![Screenshot 2](http://files.celtra.com/2012-11-04/scr2.png) &nbsp;
 ![Screenshot 3](http://files.celtra.com/2012-11-04/scr3.png) &nbsp;
 
-Brought to you by ...
----------------------
+License
+-------
+
+The code is available under the [MIT license](http://en.wikipedia.org/wiki/MIT_License), which means that you can do pretty much whatever you want with it (see LICENSE.txt).
+
+Please note, however, that you are not allowed to use Mobitel's branding without permission.
+
+Authors
+-------
 
 Authors:
 
@@ -30,4 +37,4 @@ Authors:
 
 Contributors:
 
-  - Jernej Fijačko (fix after Mobitel changed their API)
+  - Jernej Fijačko (API compatibility fix)
