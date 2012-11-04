@@ -121,7 +121,7 @@
 		215F30E212622F7800E30E74 /* QuotaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotaCell.m; sourceTree = "<group>"; };
 		21A96F2B125BDE2200D7C277 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		21A96F2D125BDE7200D7C277 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		21B4A3E61646EC1F00828895 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		21B4A3E61646EC1F00828895 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		21CE733512624FD9000B4A4D /* Quota Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quota Cell.png"; sourceTree = "<group>"; };
 		21CE733612624FD9000B4A4D /* Quota Cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quota Cell@2x.png"; sourceTree = "<group>"; };
 		21CE73971262567B000B4A4D /* QuotaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuotaCell.xib; sourceTree = "<group>"; };
