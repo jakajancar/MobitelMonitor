@@ -28,9 +28,24 @@
     [super dealloc];
 }
 
--(NSDecimalNumber *)total
+- (NSDecimalNumber *)total
 {
     return [self.available decimalNumberByAdding:self.used];
+}
+
+- (BOOL)metered
+{
+    // Assume infinite if total is 0
+    return ![self.total isEqualToNumber:@0];
+}
+
+- (NSDecimalNumber *)fractionUsed
+{
+    if ([self.total isEqualToNumber:@0]) {
+        return [NSDecimalNumber zero];
+    } else {
+        return [self.used decimalNumberByDividingBy:self.total];
+    }
 }
 
 @end

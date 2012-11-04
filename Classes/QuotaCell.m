@@ -40,14 +40,18 @@
         
         NSLocale *locale = [(ShivaAppDelegate *)[[UIApplication sharedApplication] delegate] locale];
         self.descriptionLabel.text = self.quota.description;
-        self.progressLabel.text = [NSString stringWithFormat:@"%@ / %@ %@",
-                                   [self.quota.used descriptionWithLocale:locale],
-                                   [self.quota.total descriptionWithLocale:locale],
-                                   self.quota.unit
-                                   ];
+        if (quota.metered) {
+            self.progressLabel.text = [NSString stringWithFormat:@"%@ / %@ %@",
+                                       [self.quota.used descriptionWithLocale:locale],
+                                       [self.quota.total descriptionWithLocale:locale],
+                                       self.quota.unit
+                                       ];
+        } else {
+            self.progressLabel.text = [NSString stringWithFormat:@"∞ %@", self.quota.unit];
+        }
         
         CGRect barFrame = self.progressBar.frame;
-        barFrame.size.width = 270 * [quota.used doubleValue] / [quota.total doubleValue];
+        barFrame.size.width = 270 * [quota.fractionUsed doubleValue];
         progressBar.frame = barFrame;
     }
 }
