@@ -41,6 +41,7 @@
 		215F30E312622F7800E30E74 /* QuotaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 215F30E212622F7800E30E74 /* QuotaCell.m */; };
 		21A96F2C125BDE2200D7C277 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A96F2B125BDE2200D7C277 /* Icon@2x.png */; };
 		21A96F2E125BDE7200D7C277 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 21A96F2D125BDE7200D7C277 /* iTunesArtwork */; };
+		21B4A3E71646EC1F00828895 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B4A3E61646EC1F00828895 /* Default-568h@2x.png */; };
 		21CE733712624FD9000B4A4D /* Quota Cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CE733512624FD9000B4A4D /* Quota Cell.png */; };
 		21CE733812624FD9000B4A4D /* Quota Cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CE733612624FD9000B4A4D /* Quota Cell@2x.png */; };
 		21CE73981262567B000B4A4D /* QuotaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CE73971262567B000B4A4D /* QuotaCell.xib */; };
@@ -120,6 +121,7 @@
 		215F30E212622F7800E30E74 /* QuotaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotaCell.m; sourceTree = "<group>"; };
 		21A96F2B125BDE2200D7C277 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		21A96F2D125BDE7200D7C277 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		21B4A3E61646EC1F00828895 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		21CE733512624FD9000B4A4D /* Quota Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quota Cell.png"; sourceTree = "<group>"; };
 		21CE733612624FD9000B4A4D /* Quota Cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quota Cell@2x.png"; sourceTree = "<group>"; };
 		21CE73971262567B000B4A4D /* QuotaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuotaCell.xib; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 				21CE73A812625923000B4A4D /* Quota Cell */,
 				21D6BF431263D62F00A3B23B /* Default.png */,
 				21D6BF441263D62F00A3B23B /* Default@2x.png */,
+				21B4A3E61646EC1F00828895 /* Default-568h@2x.png */,
 				21577A54125D6BF600D6FD59 /* Background.png */,
 				21577A55125D6BF600D6FD59 /* Background@2x.png */,
 				21CE744B12627B46000B4A4D /* Separator.png */,
@@ -462,6 +465,7 @@
 				21D6BF701263D92F00A3B23B /* Save Button Red@2x.png in Resources */,
 				21ECC1271268FA77002DD138 /* Header.png in Resources */,
 				21ECC1281268FA77002DD138 /* Header@2x.png in Resources */,
+				21B4A3E71646EC1F00828895 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

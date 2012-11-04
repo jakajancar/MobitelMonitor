@@ -13,7 +13,6 @@
 #import "QuantitiesView.h"
 #import "QuotaCell.h"
 
-int cellsPerPage = 4;
 CGFloat cellWidth = 300.0f;
 CGFloat cellHeight= 55.0f;
 NSString *noDataLastUpdateLabelText = @"Ni podatkov";
@@ -157,6 +156,7 @@ NSTimeInterval reloadInterval = 300;
         self.quantitiesView.response = self.response;
         
         // Update quotas
+        int cellsPerPage = floor(self.quotasScrollView.bounds.size.height/cellHeight);
         int numQuotas = MIN([self.response.quotas count], 16); // only 4 pages supported because of scrollPoints
         int numPages = ceil(1.0*numQuotas/cellsPerPage);
         
